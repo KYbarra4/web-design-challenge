@@ -1,0 +1,11 @@
+body {
+  background-image: url("https://nwafoundation.org/wp-content/uploads/2020/12/Lightning-1024x682-1.jpg");
+  height: 1000px;
+  background-position: center;
+  background-size: cover;
+}
+
+.navbar_collapse {
+    background-color: rgb(102, 117, 184);
+    font-size: 36px; 
+  }
