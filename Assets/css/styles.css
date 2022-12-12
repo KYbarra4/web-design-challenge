@@ -1,11 +1,86 @@
-body {
-  background-image: url("https://nwafoundation.org/wp-content/uploads/2020/12/Lightning-1024x682-1.jpg");
-  height: 1000px;
-  background-position: center;
-  background-size: cover;
+
+.nav_bar {
+    background-color: rgb(255, 255, 255);
+    font-size: 16px; 
+    right: 30px;
+  }
+
+.navbar-brand {
+  background-color: rgb(27, 157, 114);
+  padding: 20px;
+  font-size: 40px;
+  color:aliceblue
 }
 
-.navbar_collapse {
-    background-color: rgb(102, 117, 184);
-    font-size: 36px; 
-  }
+body {
+  background-color:rgb(155, 157, 159);
+}
+
+p {
+  color: darkslategray;
+  font-size: 24px;
+}
+
+h1{
+  color:rgb(27, 157, 114);
+  padding: 30px;
+}
+
+h2 {
+  color:rgb(27, 157, 114);
+  padding: 30px;
+}
+
+.container {
+  background-color:rgb(255, 255, 255);
+}
+
+.visual-comparison {
+  background-color:rgb(255, 255, 255);
+  padding: 20px;
+  margin-right: 20px;
+}
+
+
+/* .viz {
+  background-color:rgb(255, 255, 255);
+  padding: 100px;
+} */
+
+.carouselweather {
+  align-content: center;
+}
+
+.thispicture {
+  border:rgb(27, 157, 114) 10px; 
+}
+
+h3 {
+  text-align: center;
+  font-size: 40px;
+  color:rgb(27, 157, 114);
+  padding:30px;
+}
+
+.compair-title {
+  text-align: center;
+  color:rgb(27, 157, 114);
+  font-size:24px;
+  font-weight: 600;
+}
+
+.visual-image {
+  align-items: center;
+}
+
+table {
+  align-content: center;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  margin-left:110px;
+  border:none;
+}
+
+th {
+  text-align: center;
+}
