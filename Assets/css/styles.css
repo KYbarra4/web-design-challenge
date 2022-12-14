@@ -33,7 +33,8 @@ h2 {
 
 .container {
   background-color:rgb(255, 255, 255);
-  padding:20px;
+  padding-left:40px;
+  padding-bottom:40px;
 }
 
 /* .visual-comparison {
@@ -49,14 +50,8 @@ h2 {
   padding: 100px;
 } */
 
-.carouselweather {
-  align-content: center;
-}
-
 .thispicture {
-  border:rgb(27, 157, 114) 40px; 
-  width: 215px;
-  height: 215px;
+  border:rgb(27, 157, 114) 15px;
 }
 
 h3 {
@@ -75,10 +70,6 @@ h3 {
   padding:30px;
 }
 
-.visual-image {
-  align-items: center;
-}
-
 table {
   align-content: center;
   background-color: rgb(255, 255, 255);
@@ -95,4 +86,26 @@ th {
 .visual-image1 {
   width: 100%;
   height: 100%
+}
+
+ /* .thing{
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 15px;
+}
+
+.visual-container {
+  background-color: rgb(255, 255, 255);
+  padding-bottom: 100px;
+} */
+
+footer {
+  font-size: 24px;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  margin-top: 175px;
+  padding: 30px;
+}
+
+.navbar-nav {
+  padding-right: 50px;
 }

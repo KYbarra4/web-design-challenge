@@ -28,13 +28,7 @@
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link" href="comparison.html">Comparison</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="data.html">Data</a>
-              </li>
+            <ul class="navbar-nav  ms-auto">
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Plots
@@ -46,6 +40,13 @@
                   <li><a class="dropdown-item" href="Visualizations/wind.html">Wind Speed</a></li>
                 </ul>
               </li>
+              <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+              </li>
+              
             </ul>
           </div>
         </div>
@@ -66,8 +67,8 @@
           <hr>
           <p2>The following table includes all of the data used for plotting during this project.</p2>
         </div>
-    <div class="col-sm-6 col-md-12">
-      <table border="1" class="table table-striped" style="width:80%">
+    <div class="table-responsive" style="overflow-x:auto; overflow-y:auto; max-height:auto; max-width: auto;">
+      <table class="table table-striped" style="width:80%">
       <thead>
         <tr style="text-align: center">
           <th>City_ID</th>
